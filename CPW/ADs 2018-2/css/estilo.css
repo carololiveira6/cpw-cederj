@@ -1,0 +1,225 @@
+/*
+*    Estilo Geral
+*/
+body {
+	color: #883322;
+    font-size: 16px;
+    background-color: #99CCCC;
+    font-family: stoke, verdana, liberation;
+}
+a:link { color: #883322; text-decoration: none; }
+a:visited { color: #552211;
+	        text-decoration: none; 
+}
+ul {  list-style-type: square;
+	  line-height: 200%;
+
+}
+/*
+*    Estilo Seções
+*/
+header { display:block; margin-bottom: 1px; }
+nav { display:block; width: 170px; float: left; }
+section { display:block; width: 77%; float: right; font-size: 18px;}
+/*
+*   Estilo Header
+*/
+.ender {
+float: right;
+text-align: right;
+font-size: 15px;
+line-height: 140%;
+}
+img.imgLogo {
+padding-bottom: 15px;
+border-bottom: 3px solid;
+margin-bottom: 6px;
+}
+/*
+* Estilo Nav
+*/
+nav ul {
+margin-right: 10px;
+font-weight: bold;
+}
+/***************************************
+* Estilo Seção Mesas
+*/
+h3 { color: #883322 }
+.listaMesas {
+	color: #000000;
+	line-height: 200%;
+	list-style-type: lower-roman;
+	font-family: raleway, arial, ubuntu;
+}
+.preco {
+	color: #CC0000; font-weight: bold;
+}
+
+.apres {
+	text-align: center;
+
+}
+.div.align {
+ text-align: left;
+}
+/******************************************************/
+/***************************************
+* Estilo Seção Cadeiras
+*/
+.tabCadeira {
+	margin-top: 6px;
+	border-collapse: collapse;
+	font-family: raleway, arial, ubuntu;
+	background-color: #D5D1CF;
+}
+.tabCadeira td, .tabCadeira th {
+	border: 3px solid #96867C;
+	padding: 6px 12px 6px 12px;
+	color: #000000;
+}
+.tabCadeira .titulo {
+	color: #EEEE00;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #8C7B70;
+}
+.tabCadeira .linTH {
+	background-color: #B8AEA9;
+	vertical-align: middle;
+	text-align: center;
+}
+.tabCadeira .colTH {
+	text-align: left;
+	background-color: #B8AEA9;	
+}
+.tabCadeira .preco {
+    color: #DD0000;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.imgCadeira {
+	width: 78px;
+	height: 60px;
+}
+.imgCel {
+	background-color: #FFFFFF;
+}
+/***************************************
+* Estilo Formulário
+*/
+
+form {
+	float: right;
+}
+
+fieldset {
+	background-color: #B8AEA9;
+	color: #000000;
+}
+
+.fsForm {
+	width: 590px;
+	clear: both;
+}
+
+.fsResDir {
+	width: 260px;
+	height: 280px;
+	line-height: 190%;
+	float: right;
+}
+
+.fsResEsq {
+	width: 290px;
+	height: 280px;
+	line-height: 120%;
+	float: left;
+}
+
+.fsCartao {
+	color: #000000;
+	background-color: #D5D1CF;
+}
+
+.label1 {
+	width:90px;
+	float: left;
+	display: block;
+}
+
+.label2 {
+	width: 70px ;
+	margin-left: 28px;
+}
+
+.label3 {
+	float: left;
+	display: block;
+}
+
+#endereço {
+	width: 480px;
+}
+
+#email {
+	width:250px;
+	float: right;
+}
+
+#nome {
+	width: 250px;
+
+}
+
+#telefone, #numerocartao {
+	width: 120px;
+}
+
+#cpf {
+	width: 120px;
+	float: right;
+}
+
+textarea {
+	width: 282px;
+	height: 80px;
+	resize: none;
+	border-radius: 10px;
+}
+
+.esq {
+	float: right;
+}
+
+.botoes {
+	text-align: right;
+}
+
+.label4 {
+	display: block;
+}
+
+.parcelas {
+	color: #8833AA;
+	line-height: 120%;
+}
+
+#valortotal {
+	width: 80px;
+	float: right;
+}
+
+#parcelas {
+	float: right;
+}
+
+#mes {
+	width: 22px;
+}
+
+#ano {
+	width: 44px;
+}
+

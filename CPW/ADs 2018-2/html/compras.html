@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<title>Loja Touro Sentado</title>
+<base target="_blank">
+<link href='https://fonts.googleapis.com/css?family=Stoke' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+</head>
+<body>
+<header>
+<address class="ender">
+Av. Cabeza de Vaca, 1559<br/>
+Cel: (21) 98765-4321<br/> 
+<a href="mailto:contato@tsent.com.br">contato@tsent.com.br</a>
+</address>
+<img class="imgLogo" src="../img/TouroSentadoLogoPq.png"/></span>
+</header>
+<nav>
+<ul>
+<li>
+<a href="../index.html">Apresentação</a></li>
+<li>
+<a href="mesas.html">Mesas</a></li>
+<li>
+<a href="cadeiras.html">Cadeiras</a></li>
+<li>
+<a href="compras.html">Compras</a></li>
+</ul>
+</nav>
+<section>
+	<form method="POST">
+		<fieldset class="fsForm">
+			<legend>Dados de Identificação</legend>
+			<label for="nome" class="label1">Nome:</label>
+			<input id="nome" type="text" class="label1" name="Nome" required>
+			<label for="cpf" class="label2">CPF:</label>
+			<input id="cpf" type="text" class="label2" name="CPF" required>
+			<label for="telefone" class="label1">Telefone:</label>
+			<input id="telefone" type="tel" class="label1" name="Telefone" required>
+			<label for="email" class="label2">Email:</label>
+			<input id="email" type="email" class="label2" name="Email" required>
+			<label for="endereço" class="label1">Endereço:</label>
+			<input id="endereço" type="text" class="label1" name="Endereço" required>
+		</fieldset>
+		<fieldset class="fsResEsq"><legend>Produtos</legend>
+			<label for="b" class="label3">Mesas:</label>
+			<select class="esq" id="mesas" name="Mesas">
+				<option selected>---</option>
+				<optgroup label="Diretor">
+					<option value="AS">Alfamob Sigma</option>
+					<option>Alfa Painel S40M136</option>
+				</optgroup>
+				<optgroup label="Reunião">
+					<option value="ACsm">Alfamob Corp. semi-oval</option>
+				</optgroup>
+			</select>
+			<label for="a" class="label3">Cadeiras:</label>
+			<select class="esq" id="cadeiras" name="Cadeiras">
+				<option selected>---</option>
+				<optgroup label="Secretária">
+					<option value="v658fc">Veneza 658 Fixa Couro</option>
+					<option value="tgt">Turim Gir. Couro</option>
+					<option value="megt">Matriz Exp. Gir. Tecido</option>
+				</optgroup>
+				<optgroup label="Presidente">
+					<option value="f560c">Firenze 560 Couro</option>
+					<option value="ipc">Ipanema Prime Couro</option>
+				</optgroup>
+			</select>
+			<label class="label3">Selecionados:</label>
+			<button type="reset" class="esq">Remover</button>
+			<textarea name="objetosselecionados" readonly></textarea>
+			<label>Valor<input id="valortotal" type="number" name="valortt" readonly></label>
+		</fieldset>
+		<fieldset class="fsResDir"><legend>Forma de Pagamento</legend>
+			<label class="label4"><input class="radio" type="radio" name="formadepagamento" value="cartaovisa">Cartão Visa</label>
+			<label class="label4"><input class="radio" type="radio" name="formadepagamento" value="cartaomastercard">Cartão Mastercad</label>
+			<label class="label4"><input class="radio" type="radio" name="formadepagamento" value="boletobancario">Boleto Bancário</label>
+			<div class="parcelas">
+				<label for="parcelassj">Parcelas Sem Juros</label><select name="QntParcelas" id="parcelas">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select></div>
+		<fieldset class="fsCartao"><legend>Dados de Pagamento</legend>
+			<label for="numerocartao" class="label3">Número</label><input id="numerocartao" type="number" name="cartão" required>
+			<label class="label3">Validade:<input id="mes" type="number" name="validade-mês" min="1" max="31" required>/<input id="ano" type="number" name="validade-ano" min="2018" max="2025" required>
+			</label>
+		</fieldset>
+	</fieldset>
+		<div class="botoes">
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Limpar">
+		</div>
+	</form>
+</section>
+</body>
+</html>
